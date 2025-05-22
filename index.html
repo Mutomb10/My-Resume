@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Resume</title>      
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emmanuel Mwazaz Mutomb</h1>
+        <img src="./Profile Picture/Profile pic.png" alt="My profile picture" class="profile-pic">
+    </header>
 
-    <body>
-        <h1>Summary</h1>
-        <img src="./Profile Picture/Profile pic.png" height="150" alt="My profile picture">
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>Motivated and detail-oriented frontend developer transitioning from a strong background in customer service. Skilled in building responsive, accessible, and user-friendly web interfaces using HTML, CSS, and JavaScript. Passionate about creating clean, well-structured code and intuitive designs that enhance user experience. Known for excellent communication and problem-solving skills developed through 2+ years in client-facing roles. Eager to contribute to collaborative development teams and continue growing in modern frontend technologies.</p>
+    </section>
 
-        <p>Dedicated and empathetic Customer Service Representative with 2+ years of experience delivering excellent support through inbound calls, chat, and email at Cainiao. Proven ability to resolve customer issues efficiently while maintaining high satisfaction ratings. Now transitioning into web development, leveraging strong problem-solving skills, attention to detail, and communication abilities gained from CSR work. Currently building full-stack web applications using HTML, CSS, JavaScript, Node.js, React, and PostgreSQL, with a growing interest in Web3 and decentralized apps. Committed to creating user-friendly, responsive, and accessible digital experiences.
-        </p>
-        <hr />
+    <section id="education">
         <h2>Education</h2>
         <ul>
-            <li>Master of management, Namibia University of Science and Technology (2021 To date)</li>
-            <li>Bachelor of Business Management Honours, Namibia University of Science and Technology (2018-2019)</li>
-            <li>Bachelor of Business Management, Namibia University of Science and Technology (2015-2018)</li>
-            
+            <li>Master of Management, Namibia University of Science and Technology (2021 - Present)</li>
+            <li>Bachelor of Business Management Honours (2018-2019)</li>
+            <li>Bachelor of Business Management (2015-2018)</li>
         </ul>
-        <hr />
+    </section>
+
+    <section id="experience">
         <h2>Work Experience</h2>
-        <ul>
-            <li>Customer service representative, Cainiao France, Remote (10/2023–01/2025)</li>
-            <ul>
-                <li>Managing large amounts of incoming phone calls and chats.</li>
-                <li>Handle customer complaints, provide appropriate solutions and alternatives within the time limits; follow up to ensure resolution.</li>
-            </ul>
-            <li>Bartender, The Catch Restaurant & Lounge, Windhoek/Namibia (10/2021-09/2023)</li>
-            <ul>
-                <li>Mixing, garnishing and serving alcoholic and non-alcoholic beverages according to company specifications for guests at the bar.</li>
-                <li>Keeping the bar clean and stocked up while always providing friendly and attentive service. </li>
-            </ul>
-            <li>Assistant tour consultant, Kodiak Tour Operators, Windhoek/Namibia (03/2019-01/2020)</li>
-            <ul>
-                <li>Helping clients book their tour in Namibia</li>
-                <li>Arranging reservations with hotels, guest-houses and camp sites</li>
-            </ul>
-        </ul>
-        <hr />
+        <div class="job">
+            <h3>Customer Service Representative - Cainiao France (10/2023–01/2025)</h3>
+            <p>Managed customer interactions via phone and chat, ensuring resolution and satisfaction.</p>
+        </div>
+        <div class="job">
+            <h3>Bartender - The Catch Restaurant & Lounge (10/2021-09/2023)</h3>
+            <p>Mixed and served beverages while providing exceptional customer service.</p>
+        </div>
+        <div class="job">
+            <h3>Assistant Tour Consultant - Kodiak Tour Operators (03/2019-01/2020)</h3>
+            <p>Assisted clients in booking tours and arranged reservations with various establishments.</p>
+        </div>
+    </section>
+
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Knowledge in: Microsoft Word, Excel, PowerPoint etc</li>
-            <li>Ability to work within a team</li>
-            <li>Ability to work under pressure</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Microsoft Word, Excel, PowerPoint</li>
+            <li>Teamwork & Ability to Work Under Pressure</li>
         </ul>
-        <hr />
-        <h3>Contact</h3>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
         <ul>
-            <li>Cellphone : +264 85 64 11 058</li>
+            <li>Cellphone: +264 85 64 11 058</li>
             <li>Email: manumutomb@gmail.com</li>
         </ul>
-        
-    </body>
-    <footer>Emmanuel Mwazaz Mutomb</footer>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Emmanuel Mwazaz Mutomb</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
